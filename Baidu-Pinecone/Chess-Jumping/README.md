@@ -20,7 +20,7 @@ The three conditions and their detailed implementation are listed as follows:
 
 We will need `Y / 2` pieces to put in all bridge positions.
 
-![jumping chess bridges needed](https://github.com/user-attachments/assets/9f9caea4-ee9e-4c3a-a49d-aaff6875bda8)
+![jumping chess bridges needed](https://github.com/user-attachments/assets/a6582cf6-660c-4b62-bfbe-46c574dd079f)
 
 2. Is there enough space after `Y` to put all extra pieces?
 
@@ -31,4 +31,4 @@ We will need `Y / 2` pieces to put in all bridge positions.
 
 To calculate the moving steps, we can calculate the pieces that can be reserved (position kept). Using the total amount of pieces to subtract the number of pieces that can be kept, we get the amount of pieces that must be moved.
 
-![jumping chess example workflow](https://github.com/user-attachments/assets/f6a46495-5878-4ecb-b56e-dc66018bd254)
+![jumping chess example workflow](https://github.com/user-attachments/assets/8d5f577c-3971-4430-aceb-9b65bb4efe71)
